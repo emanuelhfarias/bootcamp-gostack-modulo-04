@@ -1,9 +1,10 @@
 import React from 'react';
 
 import './App.css';
+import profile from './assets/tux.png';
 
 function App() {
-  return <h1>Hi!</h1>
+  return <img width="150" src={profile} />
 }
 
 export default App;
