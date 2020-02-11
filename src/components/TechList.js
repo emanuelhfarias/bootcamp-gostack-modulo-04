@@ -9,6 +9,20 @@ class TechList extends Component {
     techs: ['NodeJS', 'Express', 'ReactJS', 'React Native'],
   };
 
+  // executado assim que o componente aparece em tela
+  componentDidMount() {
+    // chamadas à APIs
+  }
+
+  // executado sempre que houver alterações nas props ou state
+  componentDidUpdate(prevProps, prevState) {
+    // this.props, this.state
+  }
+
+  // executado quando o componente deixar de existir
+  componentDidUnmount() {
+  }
+
   handleInputChange = e => {
     this.setState({ newTech: e.target.value });
   }
