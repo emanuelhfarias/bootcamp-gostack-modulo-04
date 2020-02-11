@@ -37,6 +37,7 @@ class TechList extends Component {
               onDelete={() => this.handleDelete(tech)}
             />
           ))}
+          <TechItem onDelete={() => this.handleDelete(tech)} />
         </ul>
         <input
           onChange={this.handleInputChange}
